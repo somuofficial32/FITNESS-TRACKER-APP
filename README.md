@@ -1,20 +1,12 @@
-# ABOUT
-An android pedometer app which uses built-in accelerometer sensor for counting the number of foot steps taken with great user interface and various other functionalities.
+*COMPANY:* CODTECH IT SOLUTIONS
+*NAME:* SOMYA JYOTIRMAYA PANDA 
+*INTERN ID:* CTIS7598 
+*DOMAIN:* APP DEVELOPMENT 
+*DURATION:* 4 WEEKS 
+*MENTOR:* NEELA SANTOSH
 
-# FEATURES
-* Calculates the step count using the built-in accelerometer sensor.
-* Calculates the calories burned during the walk.
-* Calculates the distance traveled by the user.
-*	Provides the duration of the walk using the Chronometer included in it.
-*	Stores the details of the Last Walk of the user including- Date, Starting Time, Duration, Distance, Calories Burned, Steps Taken, Goal, Goal Achieved(Yes/No).
-*	User can change the sensitivity of the Pedometer for better accuracy.
-*	User can edit his/her details in the settings which will be stored in Shared Preference and will retain until the next change.
+The Development Environment and IDEThe primary tool used for the creation and management of this project is Android Studio. We can confirm this by analyzing the project’s hidden configuration files, such as the .idea/ directory referenced in the .gitignore file, which manages workspace states and library configurations. Furthermore, the project includes specialized temporary folders like captures/ and .externalNativeBuild, which are standard markers of an Android Studio project environment. The gradle.properties file also highlights that IDE-configured settings will override manual settings, a common feature for developers working within the Android Studio ecosystem.  Core Programming Languages and Build ToolsThe development of this application is supported by the Java and Android frameworks, utilizing Gradle version 2.2.3 as the primary build automation tool. To ensure a consistent build process across different platforms, the project includes specialized startup scripts: gradlew for Unix-based systems and gradlew.bat for Windows. The build system is configured to use the jcenter() repository for fetching necessary dependencies and plugins. Additionally, the gradle.properties file allocates 1536m of memory to the JVM daemon to maintain stability during the compilation of the application's resources.  Project Architecture and Data ManagementThe project architecture is designed to handle real-time sensor data and persistent user information. For data persistence, the app utilizes Shared Preferences, allowing user details and settings to be stored locally and retained even after the app is closed. The build configuration is modular, with a top-level build.gradle file that defines settings common to all sub-modules, while specific application logic is housed in the :app module. This structure ensures that the core pedometer logic is separated from the general project configuration.  Practical Application and User UtilityThe Pedometer App serves as a practical health and fitness tool designed to track physical activity. Its primary application is to count the number of foot steps taken by a user using the mobile device's built-in accelerometer sensor. Beyond simple step counting, the app provides critical fitness metrics, including calories burned, distance traveled, and the duration of the walk using an integrated Chronometer. This makes the task highly applicable for individuals looking to monitor their daily movement and achieve specific fitness goals.  Business and Specialized Use CasesIn a specialized context, the application offers advanced features such as adjustable sensitivity, which allows users to fine-tune the pedometer for better accuracy based on their walking style. The app also acts as a personal fitness ledger, storing the details of the "Last Walk," including the date, starting time, and whether a pre-set goal was achieved. This level of detail is applicable for fitness coaching or health monitoring services that require historical data to track a user's progress over time.  Technical Summary of SpecificationsIn summary, the Pedometer Android App is a specialized mobile development task built within Android Studio using Gradle 2.2.3. It leverages hardware-level sensors (accelerometer) and software-level persistence (Shared Preferences) to provide a comprehensive user experience. The project is structured for cross-platform development support via Gradle wrappers and uses a modular approach with a dedicated :app module. Ultimately, this task provides a functional and customizable fitness tracking solution with a focus on accuracy and historical data retention.  
 
-# SCREENSHOTS
-<p align="center"> 
-<img src="https://user-images.githubusercontent.com/42608741/46866549-7cfcbd80-ce3f-11e8-83be-b8f0046e4a47.jpg" width=35% height=35%> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <img align="ceter" src="https://user-images.githubusercontent.com/42608741/46866671-f3012480-ce3f-11e8-8f64-ff07a9431b32.jpg" width=35% height=35%>
-</p><p align="center"> 
-<img src="https://user-images.githubusercontent.com/42608741/46866933-e4ffd380-ce40-11e8-8305-058712887448.jpg" width=35% height=35%> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <img src="https://user-images.githubusercontent.com/42608741/46866938-e92bf100-ce40-11e8-8271-d12034bd793f.jpg" width=35% height=35%>
-</p>
+
 
 
